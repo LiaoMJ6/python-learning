@@ -1,0 +1,11 @@
+import  turtle
+t=turtle.Turtle()
+t.speed(0)
+t.penup()
+t.goto(0,-100)
+t.pendown()
+t.fillcolor("#FFD700")
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+turtle.done()
