@@ -86,7 +86,19 @@ from asyncio import windows_utils
 #         break
 #     else:
 #         print(x)
-
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# count=0
+# while count<len(my_list):
+#     element=my_list[count]
+#     print(f"列表元素: {element}")
+#     count+=1
+# for c in my_list:
+#     print(c)
+my_list = [1,2,3,1,2,2,3]
+set1=set()
+for x in my_list:
+    set1.add(x)
+print(set1)
 
 
 
